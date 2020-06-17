@@ -9,6 +9,24 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Gingerbread_Man_Attractor",
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Gumowski_Mira_Attractor", "Gumowski_Mira_Attractor\Gumowski_Mira_Attractor.pyproj", "{C49373C9-4BD2-42B6-A5D0-7E710768E167}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Hopalong_Attractor", "Hopalong_Attractor\Hopalong_Attractor.pyproj", "{F99005DD-D76E-424D-A167-87D462B3C4D0}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Lorenz_Attractor", "Lorenz_Attractor\Lorenz_Attractor.pyproj", "{4CA2EAD5-ECEF-45F8-B20F-41BA01CF1918}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Popcorn_Attractor", "Popcorn_Attractor\Popcorn_Attractor.pyproj", "{13777DEA-E149-455B-BE18-0023450C8A4A}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Rossler_Attractor", "Rossler_Attractor\Rossler_Attractor.pyproj", "{AC198B53-B122-4AD4-A98A-A55CDF8F2141}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Symmetric_icon_Attractor", "Symmetric_icon_Attractor\Symmetric_icon_Attractor.pyproj", "{5BE0C33B-6139-44F1-BD97-52DA3469733D}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Strange_Attractor_I", "Strange_Attractor_I\Strange_Attractor_I.pyproj", "{0DF955FC-EA89-4EE2-A2D4-C6C61C7B0294}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Strange_Attractor_III", "Strange_Attractor_III\Strange_Attractor_III.pyproj", "{62BD22B0-711C-4BB4-88F4-BEEA84F05264}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Strange_Attractor_IV", "Strange_Attractor_IV\Strange_Attractor_IV.pyproj", "{947E5742-9C28-419E-A924-B7C1B5997FEF}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Lozi_Attractor", "Lozi_Attractor\Lozi_Attractor.pyproj", "{EAF42F0D-52A6-4320-8AA7-2B3721CBD827}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +39,24 @@ Global
 		{66D3298C-019F-4A5B-B456-92C5CAC5826C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C49373C9-4BD2-42B6-A5D0-7E710768E167}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C49373C9-4BD2-42B6-A5D0-7E710768E167}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F99005DD-D76E-424D-A167-87D462B3C4D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F99005DD-D76E-424D-A167-87D462B3C4D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CA2EAD5-ECEF-45F8-B20F-41BA01CF1918}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CA2EAD5-ECEF-45F8-B20F-41BA01CF1918}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13777DEA-E149-455B-BE18-0023450C8A4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13777DEA-E149-455B-BE18-0023450C8A4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC198B53-B122-4AD4-A98A-A55CDF8F2141}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC198B53-B122-4AD4-A98A-A55CDF8F2141}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BE0C33B-6139-44F1-BD97-52DA3469733D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BE0C33B-6139-44F1-BD97-52DA3469733D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DF955FC-EA89-4EE2-A2D4-C6C61C7B0294}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DF955FC-EA89-4EE2-A2D4-C6C61C7B0294}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62BD22B0-711C-4BB4-88F4-BEEA84F05264}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62BD22B0-711C-4BB4-88F4-BEEA84F05264}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{947E5742-9C28-419E-A924-B7C1B5997FEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{947E5742-9C28-419E-A924-B7C1B5997FEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAF42F0D-52A6-4320-8AA7-2B3721CBD827}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAF42F0D-52A6-4320-8AA7-2B3721CBD827}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

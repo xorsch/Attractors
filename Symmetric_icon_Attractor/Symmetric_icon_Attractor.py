@@ -1,3 +1,4 @@
+
 '''
     https://softologyblog.wordpress.com/2017/03/04/2d-strange-attractors/
     http://sprott.physics.wisc.edu/pubs/paper219.htm

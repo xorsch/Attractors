@@ -1,4 +1,4 @@
-'''http://chaos-3d.e-monsite.com/pages/page.html
+'''http://chaos-3d.e-monsite.com/pages/strange-attractor-type-iv.html
 '''
 
 import numpy as np
@@ -6,23 +6,23 @@ import matplotlib.pyplot as plt
 from numba import jit
 
 @jit(nopython=True)
-def strangeAttractor( x, y, z, a = 3.0, b = 2.2, v = 1.0, u = 0.001):
+def strangeAttractor( x, y, z, a = 2.0, b = -3.0, o = 0.8, u = 1.0, n = -2.0, s = 0.3 ):
 
-    x_dot =  a * x * (1 - y) - b * z
-    y_dot = -v * y * (1 - x * x)
-    z_dot =  u * x
+    x_dot = a * x * ( y - 1 ) + ( b * y * z )
+    y_dot = o * ( 1 - x * x ) * y + ( u * x * z )
+    z_dot = ( n * x * y ) + ( s * z )
 
     return x_dot, y_dot, z_dot
 
 
-dt = 0.002
-num_steps = 2000000
+dt = 0.001
+num_steps = 50000
 
 xs = np.empty( num_steps + 1 )
 ys = np.empty( num_steps + 1 )
 zs = np.empty( num_steps + 1 )
 
-xs[0], ys[0], zs[0] = ( 1.0, 1.0, 0.0 )
+xs[0], ys[0], zs[0] = ( 0.5, -1.0, 0.5 )
 
 for i in range ( num_steps ):
 
@@ -35,15 +35,13 @@ for i in range ( num_steps ):
 
 # Plot
 fig = plt.figure()
-ax = fig.gca( projection='3d', adjustable='box' )
+ax = fig.gca( projection='3d' )
 
-ax.plot( xs, ys, zs, lw=0.45 )
-#ax.set_xlim(-40, 40)
-#ax.set_ylim(-40, 40)
-#ax.set_zlim(-100, 100)
+ax.plot( xs, ys, zs, lw=0.35 )
 ax.set_xlabel( "X Axis")
 ax.set_ylabel( "Y Axis" )
 ax.set_zlabel( "Z Axis" )
-ax.set_title("Strange Attractor Type III")
+ax.set_title("Strange Attractor Type I")
 
 plt.show()
+

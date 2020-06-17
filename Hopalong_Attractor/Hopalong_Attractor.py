@@ -77,3 +77,4 @@ plt.axis( 'equal' )
 plt.savefig( 'Hopalong.png', format='png', dpi=500 )
 plt.show()
 
+

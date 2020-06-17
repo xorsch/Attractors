@@ -1,3 +1,4 @@
+
 # https://en.wikipedia.org/wiki/R%C3%B6ssler_attractor
 import numpy as np
 import matplotlib.pyplot as plt
@@ -6,7 +7,7 @@ import matplotlib.pyplot as plt
 # A = 0.1, B = 0.1 y C = 14.0
 
 dt = 0.0001
-num_steps = 10000000
+num_steps = 1000000
 
 a, b, c = 0.1, 0.1, 12.0
 rossler = np.zeros( (3,num_steps+1), dtype='float64' )
