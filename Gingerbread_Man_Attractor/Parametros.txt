@@ -1,0 +1,11 @@
+Se crean 4 figuras independientes
+
+    Gingerbread[0][0]= -0.10
+    Gingerbread[1][0]=  0.01
+
+    a  = 2.200
+    b  = 2.300
+    c  = 2.000 
+    dt = 0.925 
+	
+    iterations = 100000000

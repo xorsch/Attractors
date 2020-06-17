@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Clifford_Attractor", "Clifford_Attractor\Clifford_Attractor.pyproj", "{43794533-B0D0-427D-950D-62EEFFE5ADCD}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Gingerbread_Man_Attractor", "Gingerbread_Man_Attractor\Gingerbread_Man_Attractor.pyproj", "{66D3298C-019F-4A5B-B456-92C5CAC5826C}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Gumowski_Mira_Attractor", "Gumowski_Mira_Attractor\Gumowski_Mira_Attractor.pyproj", "{C49373C9-4BD2-42B6-A5D0-7E710768E167}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{43794533-B0D0-427D-950D-62EEFFE5ADCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43794533-B0D0-427D-950D-62EEFFE5ADCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66D3298C-019F-4A5B-B456-92C5CAC5826C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66D3298C-019F-4A5B-B456-92C5CAC5826C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C49373C9-4BD2-42B6-A5D0-7E710768E167}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C49373C9-4BD2-42B6-A5D0-7E710768E167}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5D2A7192-A67D-4C31-897D-88D4AD9BEA7A}
+	EndGlobalSection
+EndGlobal
